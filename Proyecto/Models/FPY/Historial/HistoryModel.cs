@@ -1,0 +1,25 @@
+﻿namespace proyecto.Models.FPY.Historial
+{
+    public class HistoryModel
+    {
+
+        public string Serial_Number { get; set; }
+
+        public string Modelo { get; set; }
+
+        public string Proceso { get; set; }
+
+        public string COMMCELL { get; set; }
+
+        public string EVENT_DATE { get; set; }
+
+        public string EVENT_HOUR { get; set; }
+
+        public string ID_TYPE { get; set; }
+
+        public string result { get; set; }
+
+        public string ORDEN { get; set; }
+
+    }
+}
